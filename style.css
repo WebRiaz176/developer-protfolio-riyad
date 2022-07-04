@@ -16,10 +16,15 @@ h1{
 
 .name-clr{
     color: orange;
+
+}
+.bio-clr{
+    color: rgb(125, 2, 240);
 }
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -38,4 +43,10 @@ section{
 
 .half-width img{
     width: 80%;
+}
+
+.dream-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
